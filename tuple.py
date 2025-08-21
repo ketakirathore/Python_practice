@@ -5,4 +5,6 @@
 #print(t.index(34.5)) = 1
 
 #count method
+
 #print(t.count(12)) = 1 time
+1
