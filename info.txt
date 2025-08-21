@@ -1,0 +1,105 @@
+syntax
+python include
+30+ keywords
+variables, comments, constants, keywords, statements, methods, data types
+functions
+classes
+
+variables rules :
+1. variables name should always start with a-z and A-Z
+2. you cannot use digit at the start of variables name (0-9)
+3. you cannot use any symbol except underscore (_) if u wanna use this symbole always use in the middle
+4. variables names should not be keywords- for else if elif break cannot use
+5. variables names are always case sensetives- (case sensitive means python consider the differance between upper ans smaller case a and A)
+
+
+statements
+1.conditional statements - boolean operators-btrue/false
+- if  - you have single condition and want output for only true part
+- if else - you have single condition but you want for both true/false part
+- if elif else - you have multiple condition
+
+2.Looping statements
+- for loop
+- while loop
+
+
+functions way
+1. functions without parameter- the values given to variables are parameters
+2.functions with parameter
+3. function with return statements
+4. function with default parameter
+
+
+file handling : formats of file
+mode = flags - opening format of any file
+read - 'r'
+write - 'w'
+append - 'a'
+create- 'x'
+
+open('abc.txt','r') = if its read mode it will open or get error
+open('abc.txt','w') = if its in write mode it will open orcreate new file
+open('abc.txt','a') = if its in append mode it will open orcreate new file
+open('abc.txt','x') = if its in  create mode it will open orcreate new file
+
+operations
+1. open()
+2. read()
+3. write()
+4. close()
+
+
+packages/module
+
+exception handlinge
+try : execution/logic 
+except - error,if the error occuur
+finally - always execute
+
+OOPS : 
+object orianted programming:
+- security reusability , reability 
+1.class - key word = __init__s
+2.object
+
+4 pillers of OOPS - important
+-inheritance - to inherite property
+　1. single inheritance - class 1 to class 2 (a to b)
+  2. multiple inheritance - class 1 to class 2 to class 3
+  3. multilevel inheritance - from class 1 and class 2 to class 3
+  4. heiririchal inheritance - from class 1 to class 2 and 3
+  5. hybrid inheritance - combination of all class
+
+-abstraction - to hide unnecessary data- syntax = from abc import ABC, abstractmethod
+         1. data abstraction - data hide
+         2. process abstraction - hide process
+- abstract class- you can not create object
+- ABC class for abstraction for use of abstraction = python - ABC
+
+-encapsulation : to provide security for data, data bindig id(__a)= value syntax for encapsulation
+                     as it does not change the id of the given variable in python
+-polymorphism - same function / method with different meaning
+
+
+-threading : number of process 
+thread - task / perticular process
+- single threading-  1 thread 1 process
+- multiple threading - multiple process
+
+main thread - even we dont give the thread always main thread is working
+
+- regular expression
+to search and replace perticular data
+
+# github commands
+1. git init - intialiazation ( connection from vs code to git)
+#2. git add - add file
+#3. git commit - save
+4. git add remote origin - to connect github repository annd folder
+5. git status - status show of folder
+6. git branch - main branch code working
+7. git pull - downlad
+#8.git push - upload
+9. git clone - copy paste
+10. git fork - copy paste
